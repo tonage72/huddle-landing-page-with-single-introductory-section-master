@@ -32,13 +32,13 @@ main {
 
 main > img:first-child {
 	width: 10rem;
-	padding: 2rem 0 4rem 0;
+	padding: 2rem 0 3.5rem 0;
 }
 
 h1 {
 	text-align: center;
 	font-size: 1.5rem;
-	padding: 2rem 0 0 0;
+	padding: 3.5rem 0 0 0;
 }
 
 h2 {
@@ -59,8 +59,7 @@ h2 {
 	border-radius: 6rem;
 	height: 2.5rem;
 	color: blue;
-	margin: 0 auto 0 auto;
-	margin-bottom: 1rem;
+	margin: .5rem auto 1rem auto;
 }
 
 .social-links {
@@ -70,20 +69,22 @@ h2 {
 	justify-content: center;
 	width: 100%;
 	gap: 1rem;
+	padding: 3.5rem 0 1rem 0;
 }
 
 .social-links img {
 	border: 2px solid white;
 	border-radius: 50%;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2rem;
+	height: 2rem;
 	padding: .5rem;
 }
 
 .attribution {
+	margin-bottom: 1rem;
 	color: orange;
 	font-size: 11px; text-align: center;
 }
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: hsl(69, 74%, 70%);
 }
