@@ -23,11 +23,61 @@ body {
 	align-items: center;
 	background-color: rgb(17, 130, 168);
 	font-family: 'Open Sans', sans-serif;
-	height: 100vh;
 }
 
 main {
 	width: 80vw;
+	height: 100%;
+}
+
+main > img:first-child {
+	width: 10rem;
+	padding: 2rem 0 4rem 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.5rem;
+	padding: 2rem 0 0 0;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 400;
+	padding: 1rem 0 1rem 0;
+}
+
+.register {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	font-size: .9rem;
+	width: 12rem;
+	border-radius: 6rem;
+	height: 2.5rem;
+	color: blue;
+	margin: 0 auto 0 auto;
+	margin-bottom: 1rem;
+}
+
+.social-links {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 1rem;
+}
+
+.social-links img {
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: .5rem;
 }
 
 .attribution {
